@@ -1,0 +1,228 @@
+<html>
+    <head>
+        <title>College Fest 2026</title>
+        <style>
+            *{ 
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+                
+            }
+            body{
+                font-family:Arial, sans-serif;
+                text-align:center;
+                background-color:#f4f4ff;
+            }
+            header{
+                background-color:purple;
+                color:white;
+                padding:20px;
+            }
+            nav{
+                background-color:#333;
+                
+                padding:10px;
+                position:sticky;
+                top:0;
+            }
+            nav a{
+                text-decoration:none;
+                color:white;
+                padding:12px;
+            }
+            nav a:hover{
+                color:orange;
+            }
+            section{
+                padding:20px;
+            }
+            .top{
+                background:linear-gradient(120deg,purple,blue);
+                color:white;
+                padding:50px 25px;
+            }
+            .top h2{
+                font-size:35px;
+                margin-bottom:15px;
+            }
+            .event{
+                display:inline-block;
+                background-color:white;
+                padding:15px;
+                margin:10px;
+                border-radius:12px;
+                box-shadow:0 5px 10px #ccc;
+                vertical-align:top;
+                width:280px;
+                transition:transform 0.3s;
+            }
+            .event:hover{
+                transform:trasformY(-5px);
+            }
+            .event img{
+                width:100%;
+                height:150px;
+                object-fit:cover;
+                border-radius:8px;
+
+            }
+            .event h3{
+                color:purple;
+                margin:12px;
+            }
+            .full{
+                background-color:#e5e5ff;
+                padding:25px;
+                line-height:2;
+
+            }
+            form{
+                max-width:400px;
+                margin:auto;
+                background:white;
+                padding:15px;
+                border-radius:12px;
+                box-shadow:0 5px 10px #ccc;
+            }
+            input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+button {
+    background: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: darkblue;
+}
+footer {
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        padding: 8px;
+    }
+    .events {
+        width: 90%;
+        max-width: 320px;
+    }
+    .banner h2 {
+        font-size: 26px;
+    }
+}
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>College Fest 2026 </h1>
+            <p>Celebrate Talent ,Creativity and Innovation</p>
+        </header>
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#technical">TECHNICAL EVENTS</a>
+        <a href="#cultural">CULTURAL EVENTS</a>
+        <a href="#workshops">WORKSHOPS</a>
+        <a href="#schedule">SCHEDULE</a>
+        <a href="#register">REGISTER</a>
+    </nav>
+    <section class="top" id="home">
+        <h2>Welcome to 2026 College Fest!</h2>
+        <p>Join us for exciting events, competitions and workshops.</p>
+        <p>Date: 09-10 November 2026</p>
+
+    </section>
+    <section id="technical">
+        <h2>Technical Events</h2>
+        <div class="event">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNhiSZ9lrKKphHmSGt4frdueBGYfOv_2ZzLjHV0d-xsg&s=10" alt="Technical event image">
+            <h3>Tech Quiz</h3>
+            <p>Test your technical knowledge </p>
+            <p>Coordinator: Rahul</p>
+        
+        </div>
+        <div class="event">
+            <img src="https://images.openai.com/static-rsc-4/CNHJPFyo30l979l-q_shSuCGeyprtAGKYix6Q7VsqF5XCiz0g4N0_2hha7NtPttROV7ohgMXiaZ6mrnkOpSPf2Zy4XRNou9enXvtPGJE5WgufTmqF8MXYWiF-JyDPKJK3dN--Pn15umGdhhug7JUcYKRaxYdtUs3vHAkYpGcqiDnlgzgFk2gkNSxxGvElcXa?purpose=fullsize" alt="code challenge image">
+
+            <h3>Code Challenge</h3>
+            <p>Put your coding skills to the test </p>
+            <p>Coordinator: Priya</p>
+        </div>
+    </section>
+    <section id="cultural">
+        <h2>Cultural Events</h2>
+        <div class="event">
+                <img src="https://images.openai.com/static-rsc-4/O_KkzCbvAdCUIZNI_53UuC7UKoUQAEq2HK19GjKkLEZBe4sinQ7Mgqn86gUmT2m2eJIfq5NUkPjWE3k5cTS3-TMKNqVj4oU1-B_ZLOJkznI1de5s1f4NsRpfyRxxOsGutX3Qh-TBYB6Yx8dKTCHcLrAVvDGM3nF5afVPnIW932HqPVhEjfBm6vwPLqQMQn8x?purpose=fullsize"> 
+
+            <h3>Music Competition</h3>
+            <p>show your musical talents.</p>
+            <p>Coordinator: Anjali</p>
+        </div>
+        <div class="event">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZFX9SHlG49wkCO_-Xqjag9zPZ7zEaou7ShmFgkiq7nw&s=10" alt="dance competition image">
+            <h3>Dance Competition</h3>
+            <p>Express yourself through dance.</p>
+            <p>Coordinator: Rohith</p>
+        </div>
+    </section>
+    <section id="workshops">
+        <h2>Workshops</h2>
+        <div class="event">
+            <h3>AI workshop</h3>
+            <p>Learn about the latest in artificial intelligence.</p>
+            <p>Coordinator: Dr. Sharma</p>
+
+        </div>
+        <div class="event">
+            <h3>Web Design Workshop</h3>
+            <p>Learn HTML and CSS basics.</p>
+            <p>Coordinator: Prathap</p>
+        </div>
+    </section>
+    <section class="full" id="schedule">
+        <h2>Event Schedule</h2>
+        <p>9:00 AM - 10:00 AM : Inaugurations</p>
+        <p>10:00 AM - 12:00 PM : Technical Events</p>
+        <p>2:00 PM - 3:00 PM : Cultural Events</p>
+        <P>3:00 PM - 4:00 PM : Workshops</P>
+        <p>4:00 PM - 5:00 PM : Prize Distribution</p>
+    </section>
+    <section class="full">
+        <h2>Rules and Regulations</h2>
+            <p>1. Students must carry their college ID card </p>
+            <p>2. Register before the event starts</p>
+            <p>3. Maintain discipline and respect others</p>
+            <p>4. Follow the instructions of coordinators</p>
+
+    </section>
+    <section class="registration" id="register">
+        <h2>Registration</h2>
+        <form onsubmit="alert('Registration submitted successfully!');return false;";>
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter your email" required>
+            <input type="text" placeholder="College name" required>
+
+            <select required>
+                <option value="">Select Event</option>
+                <option value="tech_quiz">Tech Quiz</option>
+                <option value="code_challenge">Code Challenge</option>
+                <option value="music_competition">Music Competition</option>
+                <option value="dance_competition">Dance Competition</option>
+                <option value="ai_workshop">AI Workshop</option>
+                <option value="web_design_workshop">Web Design Workshop</option>
+            </select>
+            <button type="submit">Register Now </button>
+        </form>
+    </section>
+    <footer>
+        <p>College Fest 2026</p>
+        <p> Contact:collegefest@gmail.com</p>
+    </footer>
+    </body>
+</html>
